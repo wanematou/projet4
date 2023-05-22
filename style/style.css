@@ -6,13 +6,12 @@
     margin:0;
     padding:0;
     font-family: sans-serif;
-    /* background: linear-gradient(#141e30, #243b55); */
     background-image: linear-gradient(to bottom, rgb(245, 242, 78) ,rgb(248, 248, 147));
   }
   
   .login-box {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 280px;
     left: 50%;
     width: 400px;
     padding: 40px;
@@ -167,13 +166,29 @@
       bottom: 100%;
     }
   }
-  /* code code */
-  .login-box{
-    position: relative;
-    top: 320px;
-  }
+
+  /* header1 */
+.na{
+ position: relative;
+ bottom: 10px;
+ text-decoration: none;
+ color: rgb(25, 15, 165);
+ font-weight: bold;
+
+}
+.he{
+  list-style: none;
+ 
+}
+.na:hover{
+  color: white;
+  font-weight: bold;
+}
+.ra{
+ margin-top: -12px;
+}
   
-/* header1 */
+/* header2 */
 
   .i2 {
     height: 900px;
@@ -185,10 +200,11 @@
     
   }
   .ub{
-    display: flex; gap: 150px; margin-left: 100px ; position: relative; top: 60px;
+    display: flex; 
+    gap: 150px; margin-left: 100px ; position: relative; top: 30px;
   }
   .ub img{
-    position: relative; right: 100px; bottom: 50px;
+    position: relative; right: 100px; bottom: 20px;
   }
   .b{
    list-style: none; 
@@ -210,12 +226,12 @@
   .e{
     position: relative; bottom: 13px; left: 55px; font-weight: bold;
   }
-  /* header1 */
+  
 
   /* footer1 */
   .y{
     background: linear-gradient(360deg, transparent, #03e9f4);
-    position: relative; top: 825px;
+    position: relative; top: 770px;
     
   }
   .wa{
@@ -233,7 +249,7 @@
     text-align: center; position: relative;bottom: 30px;
   } 
 
-  /* footer1 */
+ 
 
   /* body2 */
   .ay{
@@ -242,7 +258,7 @@
    .ay td{
      border: 1px solid black; height: 25px; width: 180px;
    }
-  /* body2 */
+  
 
 
 
@@ -263,5 +279,14 @@
   .ina{
     background: linear-gradient(#e3e65e, #d8d8a7);
   }
+  td{
+    border: solid 1px;
+  }
+  table{
+    
+    position: relative;
+    left: 200px;
+  }
+  
 
-   /* footer2 */
+  
